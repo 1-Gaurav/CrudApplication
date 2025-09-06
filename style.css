@@ -1,0 +1,27 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+.nav-btn.active {
+  background: #0d6efd !important;
+}
+.card {
+  border-radius: 12px;
+}
+.emp-block {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  background: #fdfdfd;
+}
+.skill-row, .edu-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.skill-row select,
+.edu-row input {
+  flex: 1;
+}
+
+
